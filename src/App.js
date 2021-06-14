@@ -34,6 +34,10 @@ class ThirdComponent extends React.Component {
   }
 }
 
+function FourthComponent() {
+  return <h1> Function Based Component</h1>;
+}
+
 // Parent Component
 function App() {
   return (
@@ -41,6 +45,7 @@ function App() {
       <h1>This is Parent Component</h1>
       <FirstComponent />
       <SecondComponent />
+      <FourthComponent />
     </div>
   );
 }
